@@ -77,13 +77,14 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: -100;
 }
 
 .parallax-home img{
     position: absolute;
     object-fit: cover;
     pointer-events: none;
+    z-index: -100;
 }
 
 .parallax-home #text{
@@ -112,6 +113,7 @@ section{
 .about img.about-waterfall{
     position: absolute;
     top: -95px;
+    z-index: -100;
 }
 
 .about .info-box{
@@ -149,6 +151,7 @@ section{
 }
 
 .products{
+    margin-top: 50px;
     background: #121137;
     padding: 3rem 10%;
 }
@@ -168,7 +171,7 @@ section{
 }
 
 .card{
-    padding: 1rem;
+    padding: 2rem;
     border: 2px solid #12f7ff;
     text-align: center;
     border-radius: 25px;
